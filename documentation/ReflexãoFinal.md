@@ -23,7 +23,7 @@ O `ProximityAudio` mantém a reprodução espacial existente. O `FeedbackProximi
 | [03_cube_active.png](screenshots/03_cube_active.png) | Cubo próximo |
 | [04_sphere_active.png](screenshots/04_sphere_active.png) | Esfera próxima |
 | [05_pyramid_active.png](screenshots/05_pyramid_active.png) | Pirâmide próxima |
-| [06_materials.png](screenshots/06_material.png) | Materiais de ambos os estados |
+| [06_materials.png](screenshots/06_materials.png) | Materiais de ambos os estados |
 | [07_particles.png](screenshots/07_particles.png) | Configuração do Particle System |
 | [08_proximity.png](screenshots/08_proximity.png) | Referências dos scripts no Inspector |
-| [09_material_settings.png](screenshots/09_materials_settings.png) | Material emissivo |
+| [09_material_settings.png](screenshots/09_material_settings.png) | Material emissivo |
