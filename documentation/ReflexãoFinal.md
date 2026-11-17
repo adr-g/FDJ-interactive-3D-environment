@@ -43,7 +43,7 @@ Foram testados no Editor: deslocação em primeira pessoa, limites do plano, som
 ## Reflexão breve
 
 1. **Que informação transmite o feedback visual de cada objeto?**
-  Indica que cada objeto se encontra dentro da zona de proximidade e merece atenção da parte do player. Cores e movimentos das partículas distinguem os três objetos.
+  O feedback visual indica quando o jogador se aproxima de um objeto. Cada um tem um efeito diferente: o cubo apresenta pequenas partículas azuis que representam energia, a esfera utiliza partículas verdes suaves que sugerem movimento e a pirâmide apresenta partículas vermelhas ascendentes que transmitem uma sensação de atividade.
 
 2. **Como a resposta visual foi integrada ao áudio?**
   O áudio apoia a localizar cada objeto, enquanto as alterações visuais confirmam a proximidade e identificam o elemento que está em foco.
