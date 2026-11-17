@@ -27,7 +27,7 @@ O `ProximityAudio` mantém a reprodução espacial existente. O `FeedbackProximi
 | [07_particles.png](screenshots/07_particles.png)                 | Configuração do Particle System                                |
 | [08_proximity.png](screenshots/08_proximity.png)                 | Referências dos scripts no Inspector                           |
 | [09_material_settings.png](screenshots/09_material_settings.png) | Material emissivo                                              |
-| [Video; Google Drive](https://drive.google.com/file/d/1MGMNs2aiQqVufHGnfUSbckA5PeCpRFJ2/view?usp=sharing) | [video_demonstracao.mp4](video_demonstracao.mp4) | Vídeo de demonstração do projeto, gravado através de uma build |
+| [video_demosntracao.mp4 ; Google Drive](https://drive.google.com/file/d/1MGMNs2aiQqVufHGnfUSbckA5PeCpRFJ2/view?usp=sharing) / [video_demonstracao.mp4](video_demonstracao.mp4) | Vídeo de demonstração do projeto, gravado através de uma build |
 
 ## Registo de debugging
 
