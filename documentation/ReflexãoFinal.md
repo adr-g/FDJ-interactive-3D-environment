@@ -16,17 +16,18 @@ O `ProximityAudio` mantém a reprodução espacial existente. O `FeedbackProximi
 
 ## Capturas de evidência
 
-| Ficheiro | Conteúdo |
-| --- | --- |
-| [01_environment.png](screenshots/01_environment.png) | Cena geral |
-| [02_inactive.png](screenshots/02_inactive.png) | Objetos em estado inativo |
-| [03_cube_active.png](screenshots/03_cube_active.png) | Cubo próximo |
-| [04_sphere_active.png](screenshots/04_sphere_active.png) | Esfera próxima |
-| [05_pyramid_active.png](screenshots/05_pyramid_active.png) | Pirâmide próxima |
-| [06_materials.png](screenshots/06_materials.png) | Materiais de ambos os estados |
-| [07_particles.png](screenshots/07_particles.png) | Configuração do Particle System |
-| [08_proximity.png](screenshots/08_proximity.png) | Referências dos scripts no Inspector |
-| [09_material_settings.png](screenshots/09_material_settings.png) | Material emissivo |
+| Ficheiro                                                         | Conteúdo                                                       |
+| ---------------------------------------------------------------- | -------------------------------------------------------------- |
+| [01_environment.png](screenshots/01_environment.png)             | Cena geral                                                     |
+| [02_inactive.png](screenshots/02_inactive.png)                   | Objetos em estado inativo                                      |
+| [03_cube_active.png](screenshots/03_cube_active.png)             | Cubo próximo                                                   |
+| [04_sphere_active.png](screenshots/04_sphere_active.png)         | Esfera próxima                                                 |
+| [05_pyramid_active.png](screenshots/05_pyramid_active.png)       | Pirâmide próxima                                               |
+| [06_materials.png](screenshots/06_materials.png)                 | Materiais de ambos os estados                                  |
+| [07_particles.png](screenshots/07_particles.png)                 | Configuração do Particle System                                |
+| [08_proximity.png](screenshots/08_proximity.png)                 | Referências dos scripts no Inspector                           |
+| [09_material_settings.png](screenshots/09_material_settings.png) | Material emissivo                                              |
+| [video_demonstracao.mp4](video_demonstracao.mp4)                 | Vídeo de demonstração do projeto, gravado através de uma build |
 
 ## Registo de debugging
 
@@ -43,13 +44,13 @@ Foram testados no Editor: deslocação em primeira pessoa, limites do plano, som
 ## Reflexão breve
 
 1. **Que informação transmite o feedback visual de cada objeto?**
-  O feedback visual indica quando o jogador se aproxima de um objeto. Cada um tem um efeito diferente: o cubo apresenta pequenas partículas azuis que representam energia, a esfera utiliza partículas verdes suaves que sugerem movimento e a pirâmide apresenta partículas vermelhas ascendentes que transmitem uma sensação de atividade.
+   O feedback visual indica quando o jogador se aproxima de um objeto. Cada um tem um efeito diferente: o cubo apresenta pequenas partículas azuis que representam energia, a esfera utiliza partículas verdes suaves que sugerem movimento e a pirâmide apresenta partículas vermelhas ascendentes que transmitem uma sensação de atividade.
 
 2. **Como a resposta visual foi integrada ao áudio?**
-  O áudio apoia a localizar cada objeto, enquanto as alterações visuais confirmam a proximidade e identificam o elemento que está em foco.
+   O áudio apoia a localizar cada objeto, enquanto as alterações visuais confirmam a proximidade e identificam o elemento que está em foco.
 
 3. **Quais dificuldades técnicas surgiram durante a implementação?**
-  A principal dificuldade técnica foi o contraste das partículas, que foi resolvido após testar o material e o seu modo de transparência.
+   A principal dificuldade técnica foi o contraste das partículas, que foi resolvido após testar o material e o seu modo de transparência.
 
 4. **Quais funcionalidades visuais deverão ser aprimoradas para uso futuro em VR/MR?**
-  Verificar a legibilidade no headset e, se necessário, ajustar o tamanho, contraste e quantidade de partículas sem efeitos excessivos.
+   Verificar a legibilidade no headset e, se necessário, ajustar o tamanho, contraste e quantidade de partículas sem efeitos excessivos.
