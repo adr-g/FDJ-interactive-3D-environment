@@ -6,7 +6,7 @@ Acrescentar dois estados visuais (**Inativo** e **Proximo**) ao cubo, à esfera 
 
 ## Solução implementada
 
-| Objeto   | Estado inativo                           | Estado próximo                                                    |
+| Objeto   | Estado inativo                           | Estado proximo                                                    |
 | -------- | ---------------------------------------- | ----------------------------------------------------------------- |
 | Cubo     | Material azul-escuro, sem partículas     | Material azul/ciano com emissão e partículas discretas            |
 | Esfera   | Material verde-escuro, sem partículas    | Material verde mais claro e partículas suaves em redor            |
@@ -27,3 +27,29 @@ O `ProximityAudio` mantém a reprodução espacial existente. O `FeedbackProximi
 | [07_particles.png](screenshots/07_particles.png) | Configuração do Particle System |
 | [08_proximity.png](screenshots/08_proximity.png) | Referências dos scripts no Inspector |
 | [09_material_settings.png](screenshots/09_material_settings.png) | Material emissivo |
+
+## Registo de debugging
+
+- **Esperado:** partículas do cubo visíveis quando o utilizador se aproxima.
+- **Observado:** partículas demasiado escuras ou de baixo contraste, embora a troca de material e a ativação do efeito funcionassem.
+- **Causa identificada:** configuração visual do material das partículas, pouco adequada à iluminação e ao fundo da cena.
+- **Correção:** material compatível com URP (`Particles/Unlit`), com transparência, modo de mistura **Alpha** e cor com maior contraste.
+- **Validação:** novo teste em Play Mode; partículas passaram a ser visíveis durante a proximidade e pararam ao afastar o jogador.
+
+## Verificação funcional
+
+Foram testados no Editor: deslocação em primeira pessoa, limites do plano, som ambiente, sons espaciais dos três objetos e transição de materiais/partículas ao entrar e sair das zonas de proximidade. A execução fora do Editor será confirmada com uma build Windows distribuída separadamente.
+
+## Reflexão breve
+
+1. **Que informação transmite o feedback visual de cada objeto?**
+  Indica que cada objeto se encontra dentro da zona de proximidade e merece atenção da parte do player. Cores e movimentos das partículas distinguem os três objetos.
+
+2. **Como a resposta visual foi integrada ao áudio?**
+  O áudio apoia a localizar cada objeto, enquanto as alterações visuais confirmam a proximidade e identificam o elemento que está em foco.
+
+3. **Quais dificuldades técnicas surgiram durante a implementação?**
+  A principal dificuldade técnica foi o contraste das partículas, que foi resolvido após testar o material e o seu modo de transparência.
+
+4. **Quais funcionalidades visuais deverão ser aprimoradas para uso futuro em VR/MR?**
+  Verificar a legibilidade no headset e, se necessário, ajustar o tamanho, contraste e quantidade de partículas sem efeitos excessivos.
