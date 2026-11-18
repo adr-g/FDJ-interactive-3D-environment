@@ -39,7 +39,7 @@ O `ProximityAudio` mantém a reprodução espacial existente. O `FeedbackProximi
 
 ## Verificação funcional
 
-Foram testados no Editor: deslocação em primeira pessoa, limites do plano, som ambiente, sons espaciais dos três objetos e transição de materiais/partículas ao entrar e sair das zonas de proximidade. A execução fora do Editor será confirmada com uma build Windows distribuída separadamente.
+Foram testados no Editor: deslocação em primeira pessoa, limites do plano, som ambiente, sons espaciais dos três objetos e transição de materiais/partículas ao entrar e sair das zonas de proximidade. A execução fora do Editor foi confirmada com uma build Windows distribuída separadamente.
 
 ## Reflexão breve
 
