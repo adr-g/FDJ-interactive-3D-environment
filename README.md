@@ -1,6 +1,6 @@
 # Interactive 3D Environment
 
-Protótipo desenvolvido em **Unity 6.3 LTS (6000.3.27f1)**, com `Universal Render Pipeline (URP)`.
+Protótipo desenvolvido em **Unity 6.3 LTS (6000.3.27f1)**.
 
 ## Objetivo
 
